@@ -1,0 +1,26 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Entorno local / XAMPP
+*.log
+config/local.php
+.env
+
+# Dependencias
+/vendor/
+/node_modules/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Generados por FPDF o librerías
+fpdf182/cache/
+*.pdf
+
+# Archivos temporales de edición
+*~
+*.tmp
